@@ -1,5 +1,5 @@
 {
-  "name": "wu-commitlint-config",
+  "name": "@wucl/commitlint-config",
   "version": "0.0.0",
   "main": "index.js",
   "description": "commitlint配置插件",

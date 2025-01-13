@@ -1,5 +1,5 @@
 {
-  "name": "markdownlint-config",
+  "name": "@wucl/markdownlint-config",
   "version": "0.0.0",
   "description": "markdownlint代码",
   "keywords": [
