@@ -1,5 +1,5 @@
 {
-  "name": "@wucl/markdownlint-config",
+  "name": "wucl-markdownlint-config",
   "version": "0.0.4",
   "description": "markdownlint代码",
   "keywords": [
@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "markdownlint": "^0.28.1"
-  }
+  },
+  "gitHead": "7be3e45534c2a9722bb259ab9073f04f4f957320"
 }

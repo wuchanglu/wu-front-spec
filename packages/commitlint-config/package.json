@@ -1,5 +1,5 @@
 {
-  "name": "@wucl/commitlint-config",
+  "name": "wucl-commitlint-config",
   "version": "0.0.4",
   "main": "index.js",
   "description": "commitlint配置插件",
@@ -19,5 +19,6 @@
   },
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^4.5.0"
-  }
+  },
+  "gitHead": "7be3e45534c2a9722bb259ab9073f04f4f957320"
 }
