@@ -8,7 +8,7 @@
 需要 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)
 
 ```bash
-pnpm install wu-commitlint-config @commitlint/cli -D
+pnpm install @wucl/commitlint-config @commitlint/cli -D
 ```
 
 ## 使用
@@ -17,7 +17,7 @@ pnpm install wu-commitlint-config @commitlint/cli -D
 
 ```javascript
 module.exports = {
-  extends: ["wu-commitlint-config"],
+  extends: ["@wucl/commitlint-config"],
 };
 ```
 

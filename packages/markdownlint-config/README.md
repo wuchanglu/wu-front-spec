@@ -1,4 +1,4 @@
-# wu-markdownlint-config
+# @wucl/markdownlint-config
 
 > markdown 文档 规范
 
@@ -9,7 +9,7 @@
 需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install wu-markdownlint-config markdownlint --save-dev
+npm install @wucl/markdownlint-config markdownlint --save-dev
 ```
 
 如果遇到报错 `sh: markdownlint: command not found`
@@ -21,6 +21,6 @@ npm install wu-markdownlint-config markdownlint --save-dev
 
 ```json
 {
-  "extends": "wu-markdownlint-config"
+  "extends": "@wucl/markdownlint-config"
 }
 ```
