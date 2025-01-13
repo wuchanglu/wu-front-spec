@@ -1,6 +1,6 @@
 {
   "name": "@wucl/commitlint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "description": "commitlint配置插件",
   "author": "吴昌禄 <wuzhanglu@qq.com>",
