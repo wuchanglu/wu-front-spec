@@ -2,28 +2,21 @@
   "name": "markdownlint-config",
   "version": "0.0.0",
   "description": "markdownlint代码",
+  "keywords": [
+    "markdown",
+    "lint"
+  ],
   "author": "吴昌禄 <wuzhanglu@qq.com>",
   "homepage": "https://github.com/wuchanglu/restudy#readme",
   "license": "ISC",
-  "main": "lib/markdownlint-config.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wuchanglu/restudy.git"
-  },
-  "scripts": {
-    "test": "node ./__tests__/markdownlint-config.test.js"
+    "url": "git+https://github.com/wuchanglu/wu-front-spec.git"
   },
   "bugs": {
-    "url": "https://github.com/wuchanglu/restudy/issues"
+    "url": "https://github.com/wuchanglu/wu-front-spec/issues"
+  },
+  "dependencies": {
+    "markdownlint": "^0.28.1"
   }
 }
