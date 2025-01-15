@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config",
+  "name": "wucl-stylelint-config",
   "version": "0.0.7",
   "description": "stylelint-config集成扩展",
   "author": "吴昌禄 <wuzhanglu@qq.com>",
