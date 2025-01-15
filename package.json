@@ -5,11 +5,13 @@
   "author": "changlu-wu",
   "license": "ISC",
   "scripts": {
+    "prepublishOnly": "npm run test",
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
     "init": "pnpm install",
     "clean": "lerna clean && rm -rf node_modules",
     "build": "lerna run build --stream",
+    "test": "lerna run test",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "deploy": "bash deploy.sh",
@@ -32,6 +34,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
+    "@types/mocha": "^10.0.10",
     "conventional-changelog": "^6.0.0",
     "conventional-changelog-cli": "^5.0.0",
     "husky": "^9.1.7",

@@ -1,0 +1,30 @@
+{
+  "name": "stylelint-config",
+  "version": "0.0.0",
+  "description": "stylelint-config集成扩展",
+  "author": "吴昌禄 <wuzhanglu@qq.com>",
+  "homepage": "https://github.com/wuchanglu/wu-front-spec#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest "
+  },
+  "directories": {
+    "test": "__tests__"
+  },
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuchanglu/wu-front-spec.git"
+  },
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "postcss-scss": "^4.0.9",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
+  }
+}
