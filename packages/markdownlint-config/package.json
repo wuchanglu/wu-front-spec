@@ -1,6 +1,6 @@
 {
   "name": "wucl-markdownlint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "markdownlint代码",
   "keywords": [
     "markdown",
