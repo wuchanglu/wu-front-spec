@@ -7,6 +7,7 @@
   "license": "ISC",
   "main": "index.js",
   "scripts":{
+    "prepublishOnly": "npm run test",
     "test": "mocha ./__tests__/*.js --timeout 5000",
     "lint": "eslint ./",
     "print-config": "eslint --print-config ./node.js > ./print-config.json"
