@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "wucl-eslint-config",
   "version": "0.0.0",
   "description": "eslint-config集成扩展 要支持JavaScript TypeScript React Vue Node.js 等多种项目",
   "author": "吴昌禄 <wuzhanglu@qq.com>",
