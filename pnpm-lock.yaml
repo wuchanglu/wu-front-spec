@@ -318,12 +318,6 @@ importers:
         specifier: ^4.6.2
         version: 4.9.5
 
-  test-my:
-    devDependencies:
-      wucl-fe-lint:
-        specifier: ^0.0.8
-        version: 0.0.8(typescript@4.9.5)
-
 packages:
 
   '@algolia/autocomplete-core@1.17.7':
@@ -6957,26 +6951,6 @@ packages:
       utf-8-validate:
         optional: true
 
-  wucl-commitlint-config@0.0.8:
-    resolution: {integrity: sha512-atHqSCs217fNDO3WS7b7KBS79uSxbLtJowsDgEOrTZh6HAg5Lb1tsr5Qt+6wCjeA7GTsnRly9XIBxx856jZX/Q==}
-
-  wucl-eslint-config@0.0.8:
-    resolution: {integrity: sha512-W8TLkrG125C7o/hZofk2J6Xn6YDfBCsQV2Holp0hUUT7r1VqKrLbNcXrA0+T4vuPeIEGoEm0ad+gpTqS0bEqpQ==}
-
-  wucl-fe-lint@0.0.8:
-    resolution: {integrity: sha512-XOveCje4FygtOBOijo6xA4xI1k4FWEQMbKrkgqDJz7Nod1Esqc1aY46XOXNlPCkFDyxe124ejOvFKjyfvHh8Kw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    hasBin: true
-
-  wucl-markdownlint-config@0.0.8:
-    resolution: {integrity: sha512-nvcTJmICg54RhPwomHAPECPyERSpV+bo7OzW4dRsey4bAtKkWGg7QVu5u0dh4/aFxw/DmjqTIGS3cMPssXOuEA==}
-
-  wucl-stylelint-config@0.0.8:
-    resolution: {integrity: sha512-kqo0gEj5NM+xmNf+Njd0YSiVp4Exd55jjI+6fW53lQo5Wcgg00YoqQ1er+Rxsz21a63zRjxFdBahX0s0GZX4KQ==}
-    peerDependencies:
-      stylelint: '>=8.3.0'
-      stylelint-scss: '>=2.0.0'
-
   xml-name-validator@3.0.0:
     resolution: {integrity: sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==}
 
@@ -10515,25 +10489,6 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-egg@10.0.0(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1)(typescript@4.9.5):
-    dependencies:
-      '@babel/core': 7.26.0
-      '@babel/eslint-parser': 7.26.5(@babel/core@7.26.0)(eslint@8.57.1)
-      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1)(typescript@4.9.5)
-      '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@4.9.5)
-      eslint-plugin-eggache: 1.0.0
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
-      eslint-plugin-jsdoc: 37.9.7(eslint@8.57.1)
-      eslint-plugin-jsx-a11y: 6.10.2(eslint@8.57.1)
-      eslint-plugin-node: 11.1.0(eslint@8.57.1)
-      eslint-plugin-react: 7.37.4(eslint@8.57.1)
-    transitivePeerDependencies:
-      - eslint
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - supports-color
-      - typescript
-
   eslint-config-egg@10.0.0(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)(typescript@4.9.5):
     dependencies:
       '@babel/core': 7.26.0
@@ -10565,18 +10520,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1))(eslint@8.57.1):
-    dependencies:
-      debug: 4.4.0
-      eslint: 8.57.1
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
-      glob: 7.2.3
-      is-glob: 4.0.3
-      resolve: 1.22.10
-      tsconfig-paths: 3.15.0
-    transitivePeerDependencies:
-      - supports-color
-
   eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.31.0)(eslint@8.57.1):
     dependencies:
       debug: 4.4.0
@@ -10589,14 +10532,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@4.9.5)
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1))(eslint@8.57.1)
+      eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.31.0)(eslint@8.57.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -10619,7 +10562,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -15927,73 +15870,6 @@ snapshots:
       write-json-file: 3.2.0
 
   ws@7.5.10: {}
-
-  wucl-commitlint-config@0.0.8:
-    dependencies:
-      conventional-changelog-conventionalcommits: 4.6.3
-
-  wucl-eslint-config@0.0.8: {}
-
-  wucl-fe-lint@0.0.8(typescript@4.9.5):
-    dependencies:
-      '@babel/core': 7.26.0
-      '@babel/eslint-parser': 7.26.5(@babel/core@7.26.0)(eslint@8.57.1)
-      '@babel/preset-react': 7.26.3(@babel/core@7.26.0)
-      '@commitlint/cli': 16.3.0
-      '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1)(typescript@4.9.5)
-      '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@4.9.5)
-      chalk: 4.1.2
-      command-exists: 1.2.9
-      commander: 6.2.1
-      cross-spawn: 7.0.6
-      ejs: 3.1.10
-      eslint: 8.57.1
-      eslint-config-egg: 10.0.0(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1))(eslint@8.57.1))(eslint@8.57.1)(typescript@4.9.5)
-      eslint-config-prettier: 8.10.0(eslint@8.57.1)
-      eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint@8.57.1))(eslint@8.57.1)
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0(eslint@8.57.1)(typescript@4.9.5))(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.1)
-      eslint-plugin-jsx-a11y: 6.10.2(eslint@8.57.1)
-      eslint-plugin-prettier: 4.2.1(eslint-config-prettier@8.10.0(eslint@8.57.1))(eslint@8.57.1)(prettier@2.8.8)
-      eslint-plugin-react: 7.37.4(eslint@8.57.1)
-      eslint-plugin-react-hooks: 4.6.2(eslint@8.57.1)
-      eslint-plugin-vue: 7.20.0(eslint@8.57.1)
-      execa: 5.0.0
-      fast-glob: 3.3.3
-      fs-extra: 9.1.0
-      glob: 7.2.3
-      husky: 3.1.0
-      inquirer: 7.3.3
-      is-docker: 2.2.1
-      lodash: 4.17.21
-      markdownlint: 0.25.1
-      markdownlint-rule-helpers: 0.13.0
-      ora: 5.4.1
-      prettier: 2.8.8
-      strip-ansi: 6.0.1
-      stylelint: 14.16.1
-      stylelint-scss: 4.7.0(stylelint@14.16.1)
-      terminal-link: 2.1.1
-      text-table: 0.2.0
-      vue-eslint-parser: 7.11.0(eslint@8.57.1)
-      wucl-commitlint-config: 0.0.8
-      wucl-eslint-config: 0.0.8
-      wucl-markdownlint-config: 0.0.8
-      wucl-stylelint-config: 0.0.8(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1)
-    transitivePeerDependencies:
-      - '@swc/core'
-      - '@swc/wasm'
-      - eslint-import-resolver-webpack
-      - supports-color
-      - typescript
-
-  wucl-markdownlint-config@0.0.8:
-    dependencies:
-      markdownlint: 0.28.2
-
-  wucl-stylelint-config@0.0.8(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1):
-    dependencies:
-      stylelint: 14.16.1
-      stylelint-scss: 4.7.0(stylelint@14.16.1)
 
   xml-name-validator@3.0.0: {}
 
