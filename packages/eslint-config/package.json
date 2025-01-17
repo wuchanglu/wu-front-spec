@@ -1,12 +1,12 @@
 {
   "name": "wucl-eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "description": "eslint-config集成扩展 要支持JavaScript TypeScript React Vue Node.js 等多种项目",
   "author": "吴昌禄 <wuzhanglu@qq.com>",
   "homepage": "https://github.com/wuchanglu/wu-front-spec#readme",
   "license": "ISC",
   "main": "index.js",
-  "scripts":{
+  "scripts": {
     "prepublishOnly": "npm run test",
     "test": "mocha ./__tests__/*.js --timeout 5000",
     "lint": "eslint ./",

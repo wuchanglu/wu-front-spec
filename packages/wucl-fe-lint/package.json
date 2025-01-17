@@ -1,6 +1,6 @@
 {
   "name": "wucl-fe-lint",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "description": "个人lint脚手架工具",
   "author": "吴昌禄 <wuzhanglu@qq.com>",
   "homepage": "https://github.com/wuchanglu/wu-front-spec#readme",
@@ -50,10 +50,6 @@
     "commander": "^6.2.1",
     "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
-    "wucl-commitlint-config": "workspace:^",
-    "wucl-eslint-config": "workspace:^",
-    "wucl-markdownlint-config": "workspace:^",
-    "wucl-stylelint-config": "workspace:^",
     "eslint": "^8.7.0",
     "eslint-config-egg": "^10.0.0",
     "eslint-config-prettier": "^8.3.0",
@@ -81,7 +77,11 @@
     "stylelint-scss": "^4.1.0",
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
-    "vue-eslint-parser": "^7.3.0"
+    "vue-eslint-parser": "^7.3.0",
+    "wucl-commitlint-config": "workspace:^",
+    "wucl-eslint-config": "workspace:^",
+    "wucl-markdownlint-config": "workspace:^",
+    "wucl-stylelint-config": "workspace:^"
   },
   "repository": {
     "type": "git",
