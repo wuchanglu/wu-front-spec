@@ -262,7 +262,7 @@ importers:
       wucl-commitlint-config:
         specifier: workspace:^
         version: link:../commitlint-config
-      wucl-eslint-config:
+      eslint-config-wucl:
         specifier: workspace:^
         version: link:../eslint-config
       wucl-markdownlint-config:

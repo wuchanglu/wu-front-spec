@@ -24,7 +24,7 @@ $ npm install wucl-eslint-plugin eslint --save-dev
 ```js
 // .eslintrc.js
 module.exports = {
-  plugin: ["wucl-eslint-config"],
+  plugin: ["eslint-config-wucl"],
   rules: {
     "wucl-eslint-plugin/no-secret-info": "error",
   },

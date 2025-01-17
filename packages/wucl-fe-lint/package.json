@@ -79,7 +79,7 @@
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0",
     "wucl-commitlint-config": "workspace:^",
-    "wucl-eslint-config": "workspace:^",
+    "eslint-config-wucl": "workspace:^",
     "wucl-markdownlint-config": "workspace:^",
     "wucl-stylelint-config": "workspace:^"
   },
