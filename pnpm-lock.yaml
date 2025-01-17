@@ -184,6 +184,9 @@ importers:
       eslint-config-prettier:
         specifier: ^8.3.0
         version: 8.10.0(eslint@8.57.1)
+      eslint-config-wucl:
+        specifier: workspace:^
+        version: link:../eslint-config
       eslint-import-resolver-typescript:
         specifier: ^2.5.0
         version: 2.7.1(eslint-plugin-import@2.31.0)(eslint@8.57.1)
@@ -262,9 +265,6 @@ importers:
       wucl-commitlint-config:
         specifier: workspace:^
         version: link:../commitlint-config
-      eslint-config-wucl:
-        specifier: workspace:^
-        version: link:../eslint-config
       wucl-markdownlint-config:
         specifier: workspace:^
         version: link:../markdownlint-config

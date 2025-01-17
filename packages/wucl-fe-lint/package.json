@@ -1,6 +1,6 @@
 {
   "name": "wucl-fe-lint",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "个人lint脚手架工具",
   "author": "吴昌禄 <wuzhanglu@qq.com>",
   "homepage": "https://github.com/wuchanglu/wu-front-spec#readme",
@@ -53,6 +53,7 @@
     "eslint": "^8.7.0",
     "eslint-config-egg": "^10.0.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-config-wucl": "workspace:^",
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
@@ -79,7 +80,6 @@
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0",
     "wucl-commitlint-config": "workspace:^",
-    "eslint-config-wucl": "workspace:^",
     "wucl-markdownlint-config": "workspace:^",
     "wucl-stylelint-config": "workspace:^"
   },
