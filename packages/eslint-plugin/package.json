@@ -1,6 +1,6 @@
 {
   "name": "wucl-eslint-plugin",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "eslint 插件",
   "author": "吴昌禄 <wuzhanglu@qq.com>",
   "homepage": "https://github.com/wuchanglu/wu-front-spec#readme",
