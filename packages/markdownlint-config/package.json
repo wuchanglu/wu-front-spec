@@ -2,6 +2,7 @@
   "name": "wucl-markdownlint-config",
   "version": "0.0.9",
   "description": "markdownlint代码",
+  "main": "index.json",
   "keywords": [
     "markdown",
     "lint"
