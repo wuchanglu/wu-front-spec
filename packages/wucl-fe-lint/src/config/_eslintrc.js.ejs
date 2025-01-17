@@ -1,3 +1,4 @@
+
 module.exports = { extends: [ '<%= eslintType === 'index' ? 'wucl-eslint-config' :
-`wucl-eslint-config/${eslintType}` %>', <%_ if (enablePrettier) { _%> 'prettier', <%_ } _%> ],
+`wucl-config/${eslintType}` %>', <%_ if (enablePrettier) { _%> 'prettier', <%_ } _%> ],
 };

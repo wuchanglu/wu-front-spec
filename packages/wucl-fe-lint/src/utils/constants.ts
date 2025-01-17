@@ -1,6 +1,7 @@
 import path from 'path';
 import fs from 'fs-extra';
-// 读取  package.json
+
+// 读取 package.json
 const pkg: Record<string, any> = JSON.parse(
   fs.readFileSync(path.join(__dirname, '../../package.json'), 'utf8'),
 );
@@ -80,12 +81,12 @@ export const ESLINT_FILE_EXT: string[] = ['.js', '.jsx', '.ts', '.tsx', '.vue'];
  * 需要同步到 config/.eslintignore.ejs
  */
 export const ESLINT_IGNORE_PATTERN: string[] = [
-  'node_modules/',
-  'build/',
-  'dist/',
-  'coverage/',
-  'es/',
-  'lib/',
+  'node_modules',
+  'build',
+  'dist',
+  'coverage',
+  'es',
+  'lib',
   '**/*.min.js',
   '**/*-min.js',
   '**/*.bundle.js',
