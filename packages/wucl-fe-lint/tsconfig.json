@@ -2,13 +2,14 @@
   "compilerOptions": {
     "outDir": "./lib",
     "target": "ES5",
-    "module": "commonjs",
+    "module": "ESNext",
     "esModuleInterop": true,
     "removeComments": true,
     "resolveJsonModule": true,
     "declaration": true,
     "downlevelIteration": true,
-    "types": ["node"]
+    "types": ["node"],
+    "moduleResolution": "node" // 添加这一行
   },
   "include": ["src"]
 }
