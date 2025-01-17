@@ -4,6 +4,7 @@
   "description": "个人前端编码规范工程化工具-目标输出方便快速接入的工具",
   "author": "changlu-wu",
   "license": "ISC",
+  "npmClient": "pnpm",
   "scripts": {
     "prepublishOnly": "npm run test",
     "preinstall": "npx only-allow pnpm",
